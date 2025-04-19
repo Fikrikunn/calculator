@@ -1,0 +1,23 @@
+.button {
+    background: linear-gradient(145deg, #353535, #3f3f3f);
+    border-radius: 50%;
+    box-shadow: 8px 8px 16px #2a2a2a,
+                -8px -8px 16px #4a4a4a;
+    transition: all 0.2s ease-in-out;
+    user-select: none;
+  }
+  
+  .button:hover {
+    background: linear-gradient(145deg, #3a3a3a, #474747);
+    box-shadow: 4px 4px 10px #2f2f2f,
+                -4px -4px 10px #4f4f4f;
+    transform: scale(1.05);
+  }
+  
+  .button:active {
+    background: #2f2f2f;
+    box-shadow: inset 5px 5px 10px #292929,
+                inset -5px -5px 10px #3a3a3a;
+    transform: scale(0.97);
+  }
+  
