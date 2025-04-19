@@ -10,9 +10,11 @@ export default function Button({ char, onClick }: { char: string; onClick: () =>
       onClick={onClick}
       className={`
         ${styles.button}
-        flex items-center justify-center text-2xl font-bold size-[80px] sm:size-[100px]
+        flex items-center justify-center text-xl sm:text-2xl font-bold 
+        w-[60px] h-[60px] sm:w-[80px] sm:h-[80px]
         cursor-pointer select-none ${textColor}
       `}
+      
     >
       {char}
     </div>

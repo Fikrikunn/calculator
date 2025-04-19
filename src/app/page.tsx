@@ -38,8 +38,9 @@ export default function Home() {
   }
 
   return (
-    <div className='flex items-center justify-center bg-[#404040] size-full'>
-      <div className={`${styles.calc} h-[800px] w-[600px] p-10`}>
+    <div className="flex items-center justify-center bg-[#404040] min-h-screen p-4">
+      <div className={`${styles.calc} w-full max-w-[600px] h-auto p-6 sm:p-10`}>
+
         <Display value={value || '0'} />
 
         <div className='mt-10 grid grid-cols-4 gap-4'>
